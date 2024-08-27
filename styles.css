@@ -1,0 +1,90 @@
+* {
+    background-color: rgba(159, 121, 184, 0.973); 
+    font-family: inter; sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura{
+    margin-left: 15px;
+    padding-top: 15px;
+    width: 3%;
+}   
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: blue;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: blue;}
+    .text-area:focus {
+       outline: none;
+}
+
+.mensagem {
+    background: white;   
+    background-image: url(/imagens/boneco.png);
+    background-repeat: no-repeat; 
+    border: none;
+    border-radius: 24px;
+    color: blue;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensagem:focus {
+    outline: none;
+}
+
+.  button:{
+    display: flex;
+    margin: 18px;
+}
+
+.btn-desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid blue;
+    border-radius: 20px;
+    color: blue;
+    cursor: pointer;
+    height: 65px;
+    margin-left: 30px;
+    widows: 328px
+}
+
+.btn-encriptar {
+  background-color: blue; 
+  border: 1px solid blue;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  height: 67px;
+  width: 328px
+}
+
+.btn-copiar {
+    border: 1px solid blue;
+    border-radius: 24px;
+    color: #1227e0;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao{
+    color: #410a57;
+    font-size: 18px;
+}
